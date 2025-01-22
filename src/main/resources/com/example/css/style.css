@@ -1,0 +1,95 @@
+/* General Styles */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #d9e5e1; /* Light background color */
+}
+
+/* Button */
+.button {
+    -fx-background-color: #5ebcc2; /* Primary color */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-color: #448270; /* Accent color */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+.button:hover {
+    -fx-background-color: #448270; /* Darker hover color */
+    -fx-border-color: #5ebcc2;
+}
+
+/* Text Area */
+.text-area {
+    -fx-control-inner-background: #d9e5e1; /* Light background */
+    -fx-text-fill: #448270; /* Dark text */
+    -fx-border-color: #5ebcc2;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+    -fx-font-size: 14px;
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: #d9e5e1;
+    -fx-control-inner-background: #d9e5e1;
+    -fx-border-color: #5ebcc2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-cell-size: 25px;
+}
+.list-cell {
+    -fx-text-fill: #448270;
+}
+
+/* Label */
+.label {
+    -fx-text-fill: #448270; /* Dark text */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* TextField */
+.text-field {
+    -fx-control-inner-background: #d9e5e1;
+    -fx-text-fill: #448270;
+    -fx-border-color: #5ebcc2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+/* Pane */
+.pane {
+    -fx-background-color: #d9e5e1; /* Background color */
+    -fx-border-color: #5ebcc2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+
+/* ProgressBar */
+.progress-bar {
+    -fx-accent: #5ebcc2; /* Progress fill color */
+    -fx-background-color: #d9e5e1; /* Track background */
+    -fx-border-color: #448270;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+/* PasswordField */
+.password-field {
+    -fx-control-inner-background: #d9e5e1;
+    -fx-text-fill: #448270;
+    -fx-border-color: #5ebcc2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+.password-field:focused {
+    -fx-border-color: #448270;
+}
